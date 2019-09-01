@@ -103,3 +103,52 @@ h1 {
   text-decoration: none;
   color: blue;
 }
+#start-learning {
+  background-color: lightgray;
+  padding: 32px 0;
+}
+#start-learning h1 {
+  text-align: center;
+  padding-bottom: 32px;
+  margin: 0;
+}
+#start-learning .box-row {
+  margin: 0 72px;
+  display: flex;
+}
+#start-learning .box {
+  flex: 1 1 100%;
+  background-color: white;
+  margin: 16px;
+}
+#start-learning .box img {
+  width: 100%;
+}
+#start-learning .box .text {
+  margin: 16px;
+}
+#thesis h1 {
+  text-align: center;
+  margin: 32px 0;
+}
+#thesis .container {
+  display: flex;
+}
+#thesis .main {
+  flex: 1 1 60%;
+  padding: 24px;
+  box-sizing: border-box;
+}
+#thesis .main video {
+  width: 100%;
+}
+#thesis .side {
+  flex: 1 1 40%;
+}
+#thesis .side img {
+  width: 35%;
+  margin: 16px;
+}
+#thesis .side .text {
+  margin: 50px 16px;
+}
