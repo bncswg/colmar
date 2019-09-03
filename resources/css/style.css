@@ -172,3 +172,116 @@ footer a {
   text-decoration: none;
   color: black;
 }
+nav.mobile {
+  display: none;
+}
+#information .img-mobile {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 0;
+  }
+  header #name {
+    display: none;
+  }
+  header #logo {
+    display: none;
+  }
+  header nav.desktop {
+    display: none;
+  }
+  nav.mobile {
+    display: block;
+    float: none;
+  }
+  nav.mobile ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  nav.mobile li {
+    display: inline;
+    flex: 1 1 100%;
+    text-align: center;
+  }
+  nav.mobile img {
+    margin: 15px 0;
+  }
+  #cta {
+    display: block;
+    padding: 0;
+  }
+  #cta img {
+    width: 100%;
+  }
+  #cta-content {
+    overflow: auto;
+  }
+  #cta-button {
+    margin: 32px 0;
+  }
+  #information .main {
+    display: none;
+  }
+  #information .side .box {
+    display: block;
+  }
+  #information .img-desktop {
+    display: none;
+  }
+  #information .img-mobile {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    display: block;
+  }
+  #information .img-mobile.orientation {
+    background-image: url("../images/information-orientation-mobile.jpg");
+  }
+  #information .img-mobile.campus {
+    background-image: url("../images/information-campus-mobile.jpg");
+  }
+  #information .img-mobile.guest {
+    background-image: url("../images/information-guest-lecture-mobile.jpg");
+  }
+  #information .text {
+    margin-bottom: 0;
+  }
+  #start-learning {
+    background-color: white;
+  }
+  #start-learning .box-row {
+    flex-direction: column;
+    margin: 0;
+  }
+  #start-learning .box {
+    background-color: lightgray;
+    margin: 4px 16px;
+  }
+  #start-learning .box .text {
+    margin: 24px 16px;
+  }
+  #start-learning img {
+    display: none;
+  }
+  #start-learning p {
+    display: none;
+  }
+  #thesis .side {
+    display: none;
+  }
+  #thesis .main {
+    padding: 24px 0;
+  }
+  #thesis h2 {
+    display: none;
+  }
+  #thesis p {
+    display: none;
+  }
+  footer ul {
+    display: none;
+  }
+}
